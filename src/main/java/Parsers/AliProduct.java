@@ -6,32 +6,16 @@ public class AliProduct {
     private String title;
     private String price;
 
-    public String getProductUrl() {
-        return productUrl;
-    }
-
     public void setProductUrl(String productUrl) {
         this.productUrl = productUrl;
-    }
-
-    public String getImageUrl() {
-        return imageUrl;
     }
 
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getPrice() {
-        return price;
     }
 
     public void setPrice(String price) {
@@ -40,11 +24,9 @@ public class AliProduct {
 
     @Override
     public String toString() {
-        return "AliProduct{" +
-                "productUrl='" + productUrl + '\'' +
-                ", imageUrl='" + imageUrl + '\'' +
-                ", title='" + title + '\'' +
-                ", price=" + price +
-                '}';
+        return "productUrl= " + productUrl +
+                "; imageUrl= " + imageUrl +
+                "; title= " + title +
+                "; price= " + price;
     }
 }

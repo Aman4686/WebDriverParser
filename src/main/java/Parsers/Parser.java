@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Parser {
     public static void main(String[] args) {
+        
 //        long startTime = System.currentTimeMillis();
 
         AliParser parser = new AliParser("https://flashdeals.aliexpress.com/en.htm");
